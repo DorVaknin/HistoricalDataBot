@@ -1,0 +1,1 @@
+module.exports = ['USDT', 'USD', 'USDC', 'BUSD'];

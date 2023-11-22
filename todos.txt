@@ -1,0 +1,8 @@
+So what's left here that I can do:
+- need to verify that the volume equation outputs good coins // looks pretty good
+- add more indicators s.e. M.A.
+- deploy the bot onto a domain with a cronjob
+    - understand how much cpu the bot takes and if it is free using AWS
+    - keep looking on AWS try to understand how much MB I'm using and if I might have infinite loop. when to timeout my bot in order to avoid exaggerated fees
+    - look on firebase
+- add mechanism that saves all the coins that were tested in a tempStore. each exchange, filters the coins that already tested and test only coins that are new in the current exchange.
